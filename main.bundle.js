@@ -411,7 +411,7 @@ module.exports = ""
 /***/ "./src/app/contacts/contacts.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div *ngFor=\"let contact of contacts\">\n  <a href=\"/detail/{{ contact.id }}/{{ contact.name }}/{{ contact.phoneNumber }}\">{{ contact.name }}</a>\n</div>\n"
+module.exports = "<div *ngFor=\"let contact of contacts\">\n  <a routerLink=\"/detail/{{ contact.id }}/{{ contact.name }}/{{ contact.phoneNumber }}\">{{ contact.name }}</a>\n</div>\n"
 
 /***/ }),
 
